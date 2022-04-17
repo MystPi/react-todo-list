@@ -91,7 +91,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     let items = [];
-    const gotten = localStorage.getItem('items')
+    const gotten = localStorage.getItem('items');
 
     if (gotten) {
       items = JSON.parse(gotten);
